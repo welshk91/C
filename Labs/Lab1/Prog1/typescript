@@ -1,0 +1,165 @@
+Script started on Thu 01 Sep 2011 01:33:49 PM EDT
+[?1034h[eos06:~/Desktop/Operating Systems/Lab1]$ gcc 
+prog1.c     prog1.c~    typescript  
+[eos06:~/Desktop/Operating Systems/Lab1]$ gcc prog1.c -Wall -lm -g
+[eos06:~/Desktop/Operating Systems/Lab1]$ 
+Display all 3931 possibilities? (y or n)
+[eos06:~/Desktop/Operating Systems/Lab1]$ a
+Display all 191 possibilities? (y or n)
+[eos06:~/Desktop/Operating Systems/Lab1]$ a.out
+bash: a.out: command not found
+[eos06:~/Desktop/Operating Systems/Lab1]$ ~/a.out
+bash: /home/welshkev/a.out: No such file or directory
+[eos06:~/Desktop/Operating Systems/Lab1]$ ~/a.out[C[C[C[C[C[C[C[K[K[K[K[K[K[K./a.out
+Hello, world.
+You are the 268435456.000000 person to write this program!
+[eos06:~/Desktop/Operating Systems/Lab1]$ gb[Kdb a.out
+[?1034hGNU gdb (GDB) Fedora (7.3-41.fc15)
+Copyright (C) 2011 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /home/welshkev/Desktop/Operating Systems/Lab1/a.out...done.
+(gdb) [K(gdb) 
+(gdb) [K(gdb) b main
+Breakpoint 1 at 0x40054c: file prog1.c, line 6.
+(gdb) exit
+Undefined command: "exit".  Try "help".
+(gdb) end
+This command cannot be used at the top level.
+(gdb) q
+[eos06:~/Desktop/Operating Systems/Lab1]$ gdb a.out
+[?1034hGNU gdb (GDB) Fedora (7.3-41.fc15)
+Copyright (C) 2011 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /home/welshkev/Desktop/Operating Systems/Lab1/a.out...done.
+(gdb) s
+The program is not being run.
+(gdb) s[Kq
+[eos06:~/Desktop/Operating Systems/Lab1]$ gdb a.out[2P./a.out
+Hello, world.
+You are the 268435456.000000 person to write this program!
+[eos06:~/Desktop/Operating Systems/Lab1]$ ./a.outgdb a.out
+[?1034hGNU gdb (GDB) Fedora (7.3-41.fc15)
+Copyright (C) 2011 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /home/welshkev/Desktop/Operating Systems/Lab1/a.out...done.
+(gdb) s
+The program is not being run.
+(gdb) n
+The program is not being run.
+(gdb) q
+[eos06:~/Desktop/Operating Systems/Lab1]$ gdb a.out[2P./a.out
+Hello, world.
+You are the 268435456.000000 person to write this program!
+[eos06:~/Desktop/Operating Systems/Lab1]$ ./a.outgdb a.out[2P./a.out[K./a.outgdb a.out
+[?1034hGNU gdb (GDB) Fedora (7.3-41.fc15)
+Copyright (C) 2011 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /home/welshkev/Desktop/Operating Systems/Lab1/a.out...done.
+(gdb) ./a.out
+Undefined command: "".  Try "help".
+(gdb) a.out
+Ambiguous command "a.out": .
+(gdb) run
+Starting program: /home/welshkev/Desktop/Operating Systems/Lab1/a.out 
+Hello, world.
+You are the 268435456.000000 person to write this program!
+[Inferior 1 (process 6152) exited normally]
+Missing separate debuginfos, use: debuginfo-install glibc-2.14-5.x86_64
+(gdb) q
+[eos06:~/Desktop/Operating Systems/Lab1]$ gdb a.out[2P./a.outgdb a.out[2P./a.outgdb a.out[2P./a.out
+Hello, world.
+You are the 268435456.000000 person to write this program!
+[eos06:~/Desktop/Operating Systems/Lab1]$ ./a.outgdb a.out
+[?1034hGNU gdb (GDB) Fedora (7.3-41.fc15)
+Copyright (C) 2011 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /home/welshkev/Desktop/Operating Systems/Lab1/a.out...done.
+(gdb) run[K[K[Kb m,a[K[Kain
+Breakpoint 1 at 0x40054c: file prog1.c, line 6.
+(gdb) run
+Starting program: /home/welshkev/Desktop/Operating Systems/Lab1/a.out 
+
+Breakpoint 1, main () at prog1.c:6
+6	   double num = 0.0; 
+Missing separate debuginfos, use: debuginfo-install glibc-2.14-5.x86_64
+(gdb) s
+7	   printf ("Hello, world.\n"); 
+(gdb) s
+Hello, world.
+8	   num = pow(2, 28); 
+(gdb) s
+9	   printf ("You are the %f person to write this program!\n", num); 
+(gdb) 
+You are the 268435456.000000 person to write this program!
+10	   return 0; 
+(gdb) 
+11	}
+(gdb) 
+0x00000039f9c2139d in __libc_start_main () from /lib64/libc.so.6
+(gdb) 
+Single stepping until exit from function __libc_start_main,
+which has no line number information.
+[Inferior 1 (process 6158) exited normally]
+(gdb) main [K[K[K[K[Kb main
+Note: breakpoint 1 also set at pc 0x40054c.
+Breakpoint 2 at 0x40054c: file prog1.c, line 6.
+(gdb) s
+The program is not being run.
+(gdb) run
+Starting program: /home/welshkev/Desktop/Operating Systems/Lab1/a.out 
+
+Breakpoint 1, main () at prog1.c:6
+6	   double num = 0.0; 
+(gdb) s
+7	   printf ("Hello, world.\n"); 
+(gdb) p num
+$1 = 0
+(gdb) s
+Hello, world.
+8	   num = pow(2, 28); 
+(gdb) p num
+$2 = 0
+(gdb) s
+9	   printf ("You are the %f person to write this program!\n", num); 
+(gdb) p num
+$3 = 268435456
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 6161] will be killed.
+
+Quit anyway? (y or n) y
+[eos06:~/Desktop/Operating Systems/Lab1]$ exit
+exit
+
+Script done on Thu 01 Sep 2011 01:44:49 PM EDT
